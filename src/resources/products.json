@@ -1,0 +1,19 @@
+{
+  "products": [
+    {
+      "image": "src/resources/images/418787327_1308788383848048_698925582162025321_n.jpg",
+      "title": "Perfume Mary Kay Authentic Hero Bold",
+      "link": "https://www.marykay.com.br/produto/creme-hidratante"
+    },
+    {
+      "image": "src/resources/images/483915884_18496984792031162_4728359479795598666_n.jpg",
+      "title": "Pó Finalizador",
+      "link": "https://www.marykay.com.br/produto/batom"
+    },
+    {
+      "image": "src/resources/images/470894970_1575694053319449_2264390939686058292_n.jpg",
+      "title": "Perfume Mary Kay Boundless Blue",
+      "link": "https://www.marykay.com.br/produto/perfume"
+    }
+  ]
+}

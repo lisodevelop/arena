@@ -1,0 +1,73 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.navbar {
+    background: linear-gradient(135deg, #ff5e62, #f06292);
+    /* Mesma cor do header original */
+}
+
+.navbar-text h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.btn-success {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    /* Espaço entre ícone e texto */
+}
+
+.card {
+    transition: transform 0.3s;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.dev {
+    font-size: 10px;
+    padding: 3px;
+}
+
+footer {
+    background: linear-gradient(135deg, #ff5e62, #f06292);
+    flex-shrink: 0;
+}
+
+/* Ajustes para dispositivos móveis */
+@media (max-width: 576px) {
+    .card-img-top {
+        height: 150px;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+}
