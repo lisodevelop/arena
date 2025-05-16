@@ -1,3 +1,4 @@
+/* Existing styles (unchanged) */
 body {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -13,7 +14,6 @@ main {
 
 .navbar {
     background: linear-gradient(135deg, #ff5e62, #f06292);
-    /* Mesma cor do header original */
 }
 
 .navbar-text h1 {
@@ -25,7 +25,6 @@ main {
     display: flex;
     align-items: center;
     gap: 5px;
-    /* Espaço entre ícone e texto */
 }
 
 .card {
@@ -34,6 +33,7 @@ main {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 300px;
 }
 
 .card:hover {
@@ -47,7 +47,7 @@ main {
 
 .card-title {
     font-size: 1.1rem;
-    font-weight: bold;
+    font-weight: normal;
     color: #333;
 }
 
@@ -61,13 +61,62 @@ footer {
     flex-shrink: 0;
 }
 
-/* Ajustes para dispositivos móveis */
 @media (max-width: 576px) {
     .card-img-top {
         height: 150px;
     }
-
     .card-title {
         font-size: 1rem;
+    }
+}
+
+/* Updated styles for product-details */
+.product-details {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    border-radius: 10px;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.buy-button {
+    background: linear-gradient(135deg, #ff5e62, #f06292);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.buy-button:hover {
+    background: linear-gradient(135deg, #f06292, #ff5e62);
+}
+
+.close-button {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-button:hover {
+    background: #c82333;
+}
+
+@media (max-width: 576px) {
+    .product-image {
+        max-height: 300px;
+    }
+    .product-details {
+        padding: 15px;
     }
 }

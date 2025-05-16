@@ -1,19 +1,36 @@
 {
   "products": [
     {
-      "image": "src/resources/images/418787327_1308788383848048_698925582162025321_n.jpg",
-      "title": "Perfume Mary Kay Authentic Hero Bold",
-      "link": "https://www.marykay.com.br/produto/creme-hidratante"
+      "image": "src/resources/images/products/apple_and_almond.jpg",
+      "title": "Kit Presente Maçã e Amêndoa - Mary Kay®",
+      "link": "src/pages/products.html",
+      "description": "Um conjunto de presente com fragrâncias de maçã e amêndoa.",
+      "price": "R$ 199,90"
     },
     {
-      "image": "src/resources/images/483915884_18496984792031162_4728359479795598666_n.jpg",
-      "title": "Pó Finalizador",
-      "link": "https://www.marykay.com.br/produto/batom"
+      "image": "src/resources/images/products/atplay.jpg",
+      "title": "Duo de Blush At Play™ 5g",
+      "link": "src/pages/products.html"
     },
     {
-      "image": "src/resources/images/470894970_1575694053319449_2264390939686058292_n.jpg",
-      "title": "Perfume Mary Kay Boundless Blue",
-      "link": "https://www.marykay.com.br/produto/perfume"
+      "image": "src/resources/images/products/auth_hero_bold.jpg",
+      "title": "Authentic Hero Bold™ Deo Colônia 100ml",
+      "link": "src/pages/products.html"
+    },
+    {
+      "image": "src/resources/images/products/blush.jpg",
+      "title": "Blush Mary Kay ChromaFusion® 4,8g",
+      "link": "src/pages/products.html"
+    },
+    {
+      "image": "src/resources/images/products/boundless_blue.jpg",
+      "title": "Presente Boundless Blue",
+      "link": "src/pages/products.html"
+    },
+    {
+      "image": "src/resources/images/products/timewise.png",
+      "title": "Sistema Avançado TimeWise®",
+      "link": "src/pages/products.html"
     }
   ]
 }
