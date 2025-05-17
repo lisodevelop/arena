@@ -1,0 +1,16 @@
+{
+  "products": [
+    {
+      "image": "src/resources/images/products/apple_and_almond.jpg",
+      "title": "Kit Presente Maçã e Amêndoa - Mary Kay®"
+    },
+    {
+      "image": "src/resources/images/products/atplay.jpg",
+      "title": "Duo de Blush At Play™ 5g"
+    },
+    {
+      "image": "src/resources/images/products/auth_hero_bold.jpg",
+      "title": "Authentic Hero Bold™ Deo Colônia 100ml"
+    }
+  ]
+}

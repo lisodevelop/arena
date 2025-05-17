@@ -3,34 +3,38 @@
     {
       "image": "src/resources/images/products/apple_and_almond.jpg",
       "title": "Kit Presente Maçã e Amêndoa - Mary Kay®",
-      "link": "src/pages/products.html",
-      "description": "Um conjunto de presente com fragrâncias de maçã e amêndoa.",
-      "price": "R$ 199,90"
+      "link": "https://wa.me/5519982774183?text=Olá! Gostaria de saber mais sobre o Kit Presente Maçã e Amêndoa da Mary Kay. Você pode me passar mais informações?",
+      "description": "Um conjunto de presente com fragrâncias de maçã e amêndoa."
     },
     {
       "image": "src/resources/images/products/atplay.jpg",
       "title": "Duo de Blush At Play™ 5g",
-      "link": "src/pages/products.html"
+      "link": "https://wa.me/5519982774183?text=Oi! Me interessei pelo Duo de Blush At Play™ 5g. Pode me contar mais sobre esse produto?",
+      "description": "O Duo de Blush At Play™ possui textura leve, pigmentação intensa e longa duração. Oferece duas tonalidades que podem ser usadas separadas ou combinadas para um visual moderno e divertido."
     },
     {
       "image": "src/resources/images/products/auth_hero_bold.jpg",
       "title": "Authentic Hero Bold™ Deo Colônia 100ml",
-      "link": "src/pages/products.html"
+      "link": "https://wa.me/5519982774183?text=Olá! Tenho interesse na Deo Colônia Authentic Hero Bold™ 100ml. Pode me dar mais detalhes?",
+      "description": "Fragrância amadeirada aromática para homens autênticos. Moderna e sofisticada, combina notas aromáticas e picantes com um toque doce e defumado."
     },
     {
       "image": "src/resources/images/products/blush.jpg",
       "title": "Blush Mary Kay ChromaFusion® 4,8g",
-      "link": "src/pages/products.html"
+      "link": "https://wa.me/5519982774183?text=Oi! Quero saber mais sobre o Blush Mary Kay ChromaFusion® 4,8g. Pode me ajudar?",
+      "description": "Blush com alta pigmentação e longa duração. Proporciona um acabamento natural com cores vibrantes, graças à tecnologia Chromafusion®."
     },
     {
       "image": "src/resources/images/products/boundless_blue.jpg",
       "title": "Presente Boundless Blue",
-      "link": "src/pages/products.html"
+      "link": "https://wa.me/5519982774183?text=Olá! Vi o produto Presente Boundless Blue e gostaria de mais informações. Você pode me ajudar?",
+      "description": "Fragrância com notas aquáticas e marinhas, ideal para quem busca frescor e liberdade. Um presente vibrante e revigorante."
     },
     {
       "image": "src/resources/images/products/timewise.png",
       "title": "Sistema Avançado TimeWise®",
-      "link": "src/pages/products.html"
+      "link": "https://wa.me/5519982774183?text=Oi! Tenho interesse no Sistema Avançado TimeWise®. Poderia me explicar como funciona?",
+      "description": "Tratamento anti-idade completo com esfoliação, controle de oleosidade e proteção solar. Indicado para peles mistas e oleosas."
     }
   ]
 }

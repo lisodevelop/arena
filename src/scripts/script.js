@@ -54,9 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h2>${product.title}</h2>
                     <p class="text-muted">${product.description || 'Um produto exclusivo Mary Kay® para você!'}</p>
                     <p class="fw-bold">${product.price || 'Consulte o preço'}</p>
-                    <a href="${product.link}" target="_blank">
-                        <button class="btn buy-button">Buy Now</button>
-                    </a>
+                    <a href="${product.link}" target="_blank"><button class="btn buy-button">Comprar</button></a>
                     <button class="close-button mt-2">Fechar</button>
                 </div>
             </div>
@@ -73,4 +71,24 @@ document.addEventListener('DOMContentLoaded', () => {
             details.remove();
         });
     }
+
+    fetch('src/resources/carousel.json')
+    .then(response => response.json())
+    .then(data => {
+      const carouselInner = document.getElementById('carousel-items');
+
+      data.products.forEach((product, index) => {
+        const div = document.createElement('div');
+        div.className = 'carousel-item' + (index === 0 ? ' active' : '');
+
+        const img = document.createElement('img');
+        img.src = product.image;
+        img.className = 'd-block w-100';
+        img.alt = product.title;
+
+        div.appendChild(img);
+        carouselInner.appendChild(div);
+      });
+    })
+    .catch(error => console.error('Erro ao carregar o JSON:', error));
 });

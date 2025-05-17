@@ -56,6 +56,11 @@ main {
     padding: 3px;
 }
 
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 footer {
     background: linear-gradient(135deg, #ff5e62, #f06292);
     flex-shrink: 0;
@@ -78,9 +83,14 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
     margin-bottom: 20px;
+    border: 1px solid rgb(245, 243, 243);
 }
 
 .product-image {
+    display: block;
+    object-fit: cover;
+    margin: 0 auto;
+    margin-bottom: 1rem;
     border-radius: 10px;
     max-height: 400px;
     object-fit: cover;
@@ -112,10 +122,12 @@ footer {
     background: #c82333;
 }
 
+
 @media (max-width: 576px) {
     .product-image {
         max-height: 300px;
     }
+
     .product-details {
         padding: 15px;
     }
