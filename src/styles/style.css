@@ -27,6 +27,11 @@ main {
     gap: 5px;
 }
 
+#btn-whatsapp {
+    background-color: transparent;
+    border: none;
+}
+
 .card {
     transition: transform 0.3s;
     border: none;

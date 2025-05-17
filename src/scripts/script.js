@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h2>${product.title}</h2>
                     <p class="text-muted">${product.description || 'Um produto exclusivo Mary Kay® para você!'}</p>
                     <p class="fw-bold">${product.price || 'Consulte o preço'}</p>
-                    <a href="${product.link}" target="_blank"><button class="btn buy-button">Comprar</button></a>
+                    <a href="${product.link}" target="_blank"><button class="btn buy-button">Saiba mais</button></a>
                     <button class="close-button mt-2">Fechar</button>
                 </div>
             </div>
